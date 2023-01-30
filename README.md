@@ -15,7 +15,7 @@
 
 <br>
 <p float="left">
-	<img src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-VIG-Table-EX-M.jpg" alt="Vigenère Tableau" height="250px">&nbsp;&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Vigenere.jpg" alt="Blaise de Vigenère" height="300px">
+	<img src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-VIG-Table-EX-M.jpg" alt="Vigenère Tableau" height="250px">&nbsp;&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Vigenere.jpg" alt="Blaise de Vigenère" height="250px">
 </p>
 
 ## Features ✨
