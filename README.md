@@ -14,7 +14,9 @@
 [What is the Vigenere Cipher? - Definition from Techopedia](https://www.techopedia.com/definition/29768/vigenere-cipher)
 
 <br>
-<img src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-VIG-Table-EX-M.jpg" alt="Vigenère Tableau" height="225px"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Vigenere.jpg" alt="Blaise de Vigenère" height="225px">
+<p float="left">
+	<img src="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/FIG-VIG-Table-EX-M.jpg" alt="Vigenère Tableau" height="225px"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Vigenere.jpg" alt="Blaise de Vigenère" height="225px">
+</p>
 
 ## Features ✨
 
