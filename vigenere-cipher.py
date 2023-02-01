@@ -49,8 +49,10 @@ while True:
   key = input('Introduce key: ')
   print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
   text = text.upper()
+  text = text.replace(" ", "")
   key = key.upper()
-  
+  key = key.replace(" ", "")
+
   if option == '1':
     print(encrypt(text, key))
   if option == '2':
