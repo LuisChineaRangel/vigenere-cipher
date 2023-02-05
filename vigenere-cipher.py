@@ -40,12 +40,13 @@ while True:
   print('What would you want to do?')
   print('[1] Encrypt Text.')
   print('[2] Decrypt Text.')
+  print('[3] Show Alphabet.')
   print('[0] Exit.')
   print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
   option = input('Option  ->  ')
   print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
 
-  if option != '0' and option != '1' and option != '2':
+  if option not in ['0', '1', '2', '3']:
     print('ERROR. Option Unknown!')
     continue
 
@@ -58,16 +59,19 @@ while True:
     text = input('Introduce text to encrypt: ')  
   if option == '2':
     text = input('Introduce text to decrypt: ')
-  print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
-  key = input('Introduce key: ')
-  print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
-  text = text.upper()
-  text = text.replace(" ", "")
-  key = key.upper()
-  key = key.replace(" ", "")
+  
+  if option in ['1', '2']:
+    print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
+    key = input('Introduce key: ')
+    print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
+    text = text.upper()
+    text = text.replace(" ", "")
+    key = key.upper()
+    key = key.replace(" ", "")
 
   if option == '1':
     print(encrypt(text, key))
   if option == '2':
     print(decrypt(text, key))
-    
+  if option == '3':
+    print(alphabet)
