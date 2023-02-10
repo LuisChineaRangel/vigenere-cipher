@@ -32,6 +32,10 @@ def decrypt(encrypted_text, key):
     decrypted_text += decrypt_char(encrypted_text[i], key[i % len(key)])
   return decrypted_text
 
+# Only lower case characters
+for i in range(len(alphabet)):
+  alphabet[i] = alphabet[i].lower()
+
 while True:
   text = str()
   print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
@@ -64,9 +68,9 @@ while True:
     print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
     key = input('Introduce key: ')
     print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
-    text = text.upper()
+    text = text.lower()
     text = text.replace(" ", "")
-    key = key.upper()
+    key = key.lower()
     key = key.replace(" ", "")
 
   if option == '1':
